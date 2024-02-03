@@ -150,3 +150,65 @@ img{
     height: 30%;
     border-radius: 5rem;
 }
+
+/* Estilos preview */
+
+.preview{
+    position: fixed;
+    background: #598189;
+    z-index: 50;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.preview .main-product-image{
+    width: 100%; 
+    height: 100%; 
+    background-image: url(../storage/producto-1/product-1-1/main-side.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.preview .product-order{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.preview .product-price{
+    grid-area: 1/1/2/5;
+}
+
+.preview del{
+    position: inherit;
+    font-size: 1rem;
+}
+.preview .purchase{
+    grid-area: 2/3/3/5;
+    width: 40%;
+    height: 90%;
+    font-size: 1.5rem;
+}
+.preview .cant{
+    grid-area: 2/1/3/3;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.preview .cant #cantidad{
+
+    width: 50%;
+    height: 70%;
+    border-radius: 5rem;
+    border: none;
+    text-align: center;
+}
