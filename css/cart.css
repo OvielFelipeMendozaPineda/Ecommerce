@@ -1,0 +1,111 @@
+.carrito-compras{
+    position: fixed;
+    background: #cacaca;
+    z-index: 50;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 40%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(-10000px);
+    transition-duration: 550ms;
+    border-radius:  2rem;
+}
+.carrito-compras.active{
+    transform: translateX(0);
+}
+.header{
+    width: 100%;
+    height: 15% ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.carrito-compras .header h2{
+    background: rgba(255, 255, 255, 0);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.7rem;
+    font-weight: 300;
+}
+.carrito-compras .header .cart{
+    background: rgba(255, 0, 0, 0);
+    position: inherit;
+    width: 25%;
+    height: 100%;
+}
+.carrito-compras .header .cart .bx{
+    font-size: 3rem;
+}
+
+.main-section{
+    width: 100%;
+    height: 68%;
+}
+.main-section .products{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+.main-section .products .product{
+    height: 23%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-template-rows: 1fr 1fr;
+
+}
+.main-section .products .product picture{
+    grid-area: 1/1/3/2 ;
+    width: 100%;
+    height: 100%;
+}
+.main-section .products .product h2{
+    grid-area: 1/2/2/4 ;
+    width: 100%;
+    height: 100%;
+}
+.main-section .products .product p{
+    grid-area: 2/2/3/3;
+    width: 100%;
+    height: 100%;
+}
+.main-section .products .product h3{
+    grid-area: 2/3/3/4;
+    width: 100%;
+    height: 100%;
+}
+.order-details{
+    width: 100%;
+    height: 18%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.order-details #st-total{
+    font-size: 2.7rem;
+    padding-left: 4rem;
+}
+.order-details #total-sum{
+    font-weight: 200;
+    font-size: 2.7rem;
+}
+.make-purchase{
+    width: 50%;
+    height: 40%;
+    background: #FFD700;
+    border-radius: 5rem;
+    border: none;
+    margin-left: 25%;
+    margin-top: 1em;
+}

@@ -11,6 +11,7 @@ header{
     width: 100%;
     height: 10vh;
     display: flex;
+    transition-duration: 1s;
 }
 nav{
     position: fixed;
@@ -24,10 +25,10 @@ nav{
     background: white;
     z-index: 1;
     filter: drop-shadow(5px 5px 5px grey);
-    transition-duration: 1s;
+
 
 }
-nav.active{
+header.active{
     transform: translateY(-13vh);
 
 }
@@ -52,6 +53,9 @@ nav::-webkit-scrollbar-track {
 .last{
     padding: 0 12rem 0 6rem;
 }
+.back{
+    cursor: pointer;
+}
 .cart{
     background: white;
     width: 7%;
@@ -63,6 +67,7 @@ nav::-webkit-scrollbar-track {
     align-items: center;
     justify-content: center;
     z-index: 5;
+    cursor:  pointer;
 }
 .bx{
     font-size: 3rem;
@@ -157,3 +162,6 @@ img{
     border-radius: 5rem;
 }
 
+.purchase{
+    cursor: pointer;
+}
