@@ -6,6 +6,8 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
         <link rel="stylesheet" href="css/images.css">
+        <link rel="stylesheet" href="css/preview.css">
+
         <title>ECOMMERCE</title>
     </head>
     <body>
@@ -25,7 +27,7 @@
             <div class="cart"><i class='bx bx-cart'></i></div>
         </header>
         <section class="preview">
-            <div class="back">
+            <div class="back" id="close">
                 <i class='bx bx-arrow-back'></i>
             </div>
             <div class="main-product-image">
@@ -69,7 +71,7 @@
             <div class="product-order">
                 <p class="product-price">$99.99</p>
                 <p class="product-discounted"><del>$100.00</del></p>
-                <button class="purchase">Añadir</button>
+                <button class="purchase" id="show">Añadir</button>
             </div>
         </section>
         <section class="main-2">
@@ -137,5 +139,7 @@
                 <button class="purchase">Añadir</button>
             </div>
         </section>
+        <script src="js/main.js"></script>
     </body>
+    
 </html>
