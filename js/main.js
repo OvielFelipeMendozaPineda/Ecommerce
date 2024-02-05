@@ -4,6 +4,8 @@ let close = document.querySelector('.back')
 let header = document.querySelector('header')
 let carts = document.querySelectorAll('.bx-cart');
 let carrito = document.querySelector('.carrito-compras')
+let menuboton =  document.querySelector('.bx-menu')
+let nav = document.querySelector('nav')
 
 purchaseButtons.forEach(function (button) {
     button.addEventListener('click', function () {
@@ -23,3 +25,7 @@ carts.forEach(function(cart) {
         header.classList.toggle('active');
     });
 });
+
+menuboton.addEventListener('click', function () {
+    nav.classList.toggle('active');
+})
