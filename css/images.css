@@ -6,46 +6,6 @@
 .purchase{
     cursor: pointer;
 }
-.main-1 #image1:hover ~ .main-product-image {
-    background-image: url(../storage/producto-1/product-1-1/Left-side.jpg);
-
-}
-.main-1 #image2:hover ~ .main-product-image{
-    background-image: url(../storage/producto-1/product-1-1/right-side.jpg);
-
-}
-.main-1 #image3:hover ~ .main-product-image{
-    background-image: url(../storage/producto-1/product-1-1/diagonal-side.jpg);
-
-}
-.main-1 #image4:hover ~ .main-product-image{
-    background-image: url(../storage/producto-1/product-1-1/main-side.jpg);
-
-}
-.main-1 .main-product-image{
-    background-image: url(../storage/producto-1/product-1-1/main.jpg);
-}
-
-
-.main-2 #image1:hover ~ .main-product-image {
-    background-image: url(../storage/producto-1/product1-2/left-side.jpg);
-
-}
-.main-2 #image2:hover ~ .main-product-image{
-    background-image: url(../storage/producto-1/product1-2/right-side.jpg);
-}
-.main-2 #image3:hover ~ .main-product-image{
-    background-image: url(../storage/producto-1/product1-2/bottom-side.jpg);
-
-}
-.main-2 #image4:hover ~ .main-product-image{
-    background-image: url(../storage/producto-1/product1-2/diagonal-side.jpg);
-
-}
-.main-2 .main-product-image{
-    background-image: url(../storage/producto-1/product1-2/diagonal-side.jpg);
-
-}
 .product-image{
     background-size: contain;
     background-position: center;
@@ -60,4 +20,240 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.main-1-1 #image1:hover ~ .main-product-image {
+    background-image: url(../storage/producto-1/product-1-1/Left-side.jpg);
+
+}
+.main-1-1 #image2:hover ~ .main-product-image{
+    background-image: url(../storage/producto-1/product-1-1/right-side.jpg);
+
+}
+.main-1-1 #image3:hover ~ .main-product-image{
+    background-image: url(../storage/producto-1/product-1-1/diagonal-side.jpg);
+
+}
+.main-1-1 #image4:hover ~ .main-product-image{
+    background-image: url(../storage/producto-1/product-1-1/main-side.jpg);
+
+}
+.main-1-1 .main-product-image{
+    background-image: url(../storage/producto-1/product-1-1/main.jpg);
+}
+.main-1-2 #image1:hover ~ .main-product-image {
+    background-image: url(../storage/producto-1/product-1-2/left-side.jpg);
+
+}
+.main-1-2 #image2:hover ~ .main-product-image{
+    background-image: url(../storage/producto-1/product-1-2/right-side.jpg);
+}
+.main-1-2 #image3:hover ~ .main-product-image{
+    background-image: url(../storage/producto-1/product-1-2/bottom-side.jpg);
+
+}
+.main-1-2 #image4:hover ~ .main-product-image{
+    background-image: url(../storage/producto-1/product-1-2/diagonal-side.jpg);
+
+}
+.main-1-2 .main-product-image{
+    background-image: url(../storage/producto-1/product-1-2/diagonal-side.jpg);
+}
+.main-1-3 #image1:hover ~ .main-product-image {
+    background-image: url(../storage/producto-1/product-1-3/main-side.png);
+
+}
+.main-1-3 #image2:hover ~ .main-product-image{
+    background-image: url(../storage/producto-1/product-1-3/left-side.png);
+}
+.main-1-3 #image3:hover ~ .main-product-image{
+    background-image: url(../storage/producto-1/product-1-3/bottom-side.png);
+
+}
+.main-1-3 #image4:hover ~ .main-product-image{
+    background-image: url(../storage/producto-1/product-1-3/right-side.png);
+
+}
+.main-1-3 .main-product-image{
+    background-image: url(../storage/producto-1/product-1-3/main-side.png);
+
+}
+.main-1-4 #image1:hover ~ .main-product-image {
+    background-image: url(../storage/producto-1/product-1-4/back-side.png);
+
+}
+.main-1-4 #image2:hover ~ .main-product-image{
+    background-image: url(../storage/producto-1/product-1-4/top-side.png);
+}
+.main-1-4 #image3:hover ~ .main-product-image{
+    background-image: url(../storage/producto-1/product-1-4/right-side.png);
+
+}
+.main-1-4 #image4:hover ~ .main-product-image{
+    background-image: url(../storage/producto-1/product-1-4/main-side.png);
+
+}
+.main-1-4 .main-product-image{
+    background-image: url(../storage/producto-1/product-1-4/main-side.png);
+
+}
+
+
+.main-2-1 #image1:hover ~ .main-product-image {
+    background-image: url(../storage/producto-2/subproducto-2-1/front.png);
+
+}
+.main-2-1 #image2:hover ~ .main-product-image{
+    background-image: url(../storage/producto-2/subproducto-2-1/main.png);
+
+}
+.main-2-1 #image3:hover ~ .main-product-image{
+    background-image: url(../storage/producto-2/subproducto-2-1/right.png);
+
+}
+.main-2-1 #image4:hover ~ .main-product-image{
+    background-image: url(../storage/producto-2/subproducto-2-1/top.png);
+
+}
+.main-2-1 .main-product-image{
+    background-image: url(../storage/producto-2/subproducto-2-1/main.png);
+}
+.main-2-2 #image1:hover ~ .main-product-image {
+    background-image: url(../storage/producto-2/subproducto-2-2/close.png);
+
+}
+.main-2-2 #image2:hover ~ .main-product-image{
+    background-image: url(../storage/producto-2/subproducto-2-2/left.png);
+}
+.main-2-2 #image3:hover ~ .main-product-image{
+    background-image: url(../storage/producto-2/subproducto-2-2/main.png);
+
+}
+.main-2-2 #image4:hover ~ .main-product-image{
+    background-image: url(../storage/producto-2/subproducto-2-2/top.png);
+
+}
+.main-2-2 .main-product-image{
+    background-image: url(../storage/producto-2/subproducto-2-2/main.png);
+}
+.main-2-3 #image1:hover ~ .main-product-image {
+    background-image: url(../storage/producto-2/subproducto-2-3/close.png);
+
+}
+.main-2-3 #image2:hover ~ .main-product-image{
+    background-image: url(../storage/producto-2/subproducto-2-3/main.png);
+}
+.main-2-3 #image3:hover ~ .main-product-image{
+    background-image: url(../storage/producto-2/subproducto-2-3/open.png);
+
+}
+.main-2-3 #image4:hover ~ .main-product-image{
+    background-image: url(../storage/producto-2/subproducto-2-3/right.png);
+
+}
+.main-2-3 .main-product-image{
+    background-image: url(../storage/producto-2/subproducto-2-3/main.png);
+
+}
+.main-2-4 #image1:hover ~ .main-product-image {
+    background-image: url(../storage/producto-2/subproducto-2-4/back.png);
+
+}
+.main-2-4 #image2:hover ~ .main-product-image{
+    background-image: url(../storage/producto-2/subproducto-2-4/left.png);
+}
+.main-2-4 #image3:hover ~ .main-product-image{
+    background-image: url(../storage/producto-2/subproducto-2-4/main.png);
+
+}
+.main-2-4 #image4:hover ~ .main-product-image{
+    background-image: url(../storage/producto-2/subproducto-2-4/right.png);
+
+}
+.main-2-4 .main-product-image{
+    background-image: url(../storage/producto-2/subproducto-2-4/main.png);
+
+}
+
+
+
+
+
+
+
+
+.main-3-1 #image1:hover ~ .main-product-image {
+    background-image: url(../storage/producto-3/subproducto-3-1/front.png);
+
+}
+.main-3-1 #image2:hover ~ .main-product-image{
+    background-image: url(../storage/producto-3/subproducto-3-1/left.png);
+
+}
+.main-3-1 #image3:hover ~ .main-product-image{
+    background-image: url(../storage/producto-3/subproducto-3-1/main.png);
+
+}
+.main-3-1 #image4:hover ~ .main-product-image{
+    background-image: url(../storage/producto-3/subproducto-3-1/right.png);
+
+}
+.main-3-1 .main-product-image{
+    background-image: url(../storage/producto-3/subproducto-3-1/main.png);
+}
+.main-3-2 #image1:hover ~ .main-product-image {
+    background-image: url(../storage/producto-3/subproducto-3-2/ada.jpg.png);
+
+}
+.main-3-2 #image2:hover ~ .main-product-image{
+    background-image: url(../storage/producto-3/subproducto-3-2/left.png);
+}
+.main-3-2 #image3:hover ~ .main-product-image{
+    background-image: url(../storage/producto-3/subproducto-3-2/ada.jpg.png);
+
+}
+.main-3-2 #image4:hover ~ .main-product-image{
+    background-image: url(../storage/producto-3/subproducto-3-2/left.png);
+
+}
+.main-3-2 .main-product-image{
+    background-image: url(../storage/producto-3/subproducto-3-2/ada.jpg.png);
+}
+.main-3-3 #image1:hover ~ .main-product-image {
+    background-image: url(../storage/producto-3/subproducto-3-3/beut.jpg);
+
+}
+.main-3-3 #image2:hover ~ .main-product-image{
+    background-image: url(../storage/producto-3/subproducto-3-3/front.jpg);
+}
+.main-3-3 #image3:hover ~ .main-product-image{
+    background-image: url(../storage/producto-3/subproducto-3-3/main.jpeg);
+
+}
+.main-3-3 #image4:hover ~ .main-product-image{
+    background-image: url(../storage/producto-3/subproducto-3-3/beut.jpg);
+
+}
+.main-3-3 .main-product-image{
+    background-image: url(../storage/producto-3/subproducto-3-3/main.jpeg);
+
+}
+.main-3-4 #image1:hover ~ .main-product-image {
+    background-image: url(../storage/producto-3/subproducto-3-4/front.png);
+
+}
+.main-3-4 #image2:hover ~ .main-product-image{
+    background-image: url(../storage/producto-3/subproducto-3-4/left.png);
+}
+.main-3-4 #image3:hover ~ .main-product-image{
+    background-image: url(../storage/producto-3/subproducto-3-4/main.png);
+
+}
+.main-3-4 #image4:hover ~ .main-product-image{
+    background-image: url(../storage/producto-3/subproducto-3-4/right.png);
+
+}
+.main-3-4 .main-product-image{
+    background-image: url(../storage/producto-3/subproducto-3-4/main.png);
+
 }
