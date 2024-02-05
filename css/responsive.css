@@ -92,4 +92,27 @@
         width: 50%;
         height: 80%;
     }
+    .carrito-compras{
+        width: 90%;
+        height: 90vh;
+    }
+    .order-details #st-total{
+        padding-top: .4rem;
+        padding-left: 2rem;
+        font-size: 2rem;
+    }
+    .main-section .products .product p{
+        display: flex;
+        justify-content: center;
+    } 
+    .order-details #total-sum{
+        margin-top: 0.4rem;
+        font-size: 2rem;
+    }
+    .make-purchase{
+        width: 70%;
+        height: 30%;
+        margin: auto;
+        margin-top: 1rem;
+    }
 }
