@@ -70,6 +70,8 @@
     grid-area: 1/1/3/2 ;
     width: 100%;
     height: 80%;
+    margin-left: 1rem;
+    margin-right: .5rem;
     
 }
 .main-section .products .product h2{
