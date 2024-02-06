@@ -45,7 +45,7 @@
 }
 .preview .purchase{
     grid-area: 2/3/3/5;
-    width: 40%;
+    width: 100%;
     height: 90%;
     font-size: 1.5rem;
 }
@@ -59,8 +59,9 @@
 }
 .preview .cant #cantidad{
 
-    width: 50%;
-    height: 70%;
+    width: 100%;
+    height: 90%;
+    margin-top: 1.7rem;
     border-radius: 5rem;
     border: none;
     text-align: center;
